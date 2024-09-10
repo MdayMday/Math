@@ -1,0 +1,21 @@
+import math
+list = [71,68,72,73,74,62,73,70,71]
+newList = list.copy()
+di = len(list)
+x = 9
+y = 9
+woo = 0
+prev = 0
+while x >= (1):
+    wee = list.pop(0)
+    woo = wee + woo
+    x -= 1
+alarm = woo/di
+print (alarm)
+while y >= (1):
+    wah = newList.pop(0)
+    oop = wah - alarm
+    over = oop * oop
+    prev = over + prev
+    y -= 1
+print (math.sqrt(prev/di))
