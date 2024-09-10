@@ -1,0 +1,8 @@
+import statistics
+list = [71,68,72,73,74,62,73,70,71]
+over = statistics.quantiles(list)
+print(over, "I am in the 75th quantile")
+ah = over.pop(-1)
+eh = over.pop(0)
+IQR = ah - eh
+print(IQR, "is the IQR")
